@@ -1,0 +1,10 @@
+1 - Crie uma API que utilize o servidor express e exponha a porta 3000.
+2 - Crie uma rota GET que responda "Hello Word" na rota '/'.
+3 - Crie uma rota GET que retorne uma lista de usuários ao acessar a rota '/usuarios'.
+4 - Crie uma rota GET que utilize params para trazer um único usuário
+5 - Crie um endpoint GET que traga uma lista de livros ao acessar '/books'
+6 - Crie uma rota GET que utilize params para trazer um único livro.
+7 - Crie uma rota GET que utilize 2 Params e que retorne o usuário e o livro
+8 - Crie uma rota GET que utilize query strings que ao acessar '/country' traga 1 país
+9 - Crie uma rota GET que utilize query strings que ao acessar '/country' traga 1 país e 1 cidade
+10 - Crie uma rota GET que utilize query strings que ao acessar '/country' traga 1 país, 1 cidade e 1 município. 

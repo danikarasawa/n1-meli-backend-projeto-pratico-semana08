@@ -1,9 +1,10 @@
 const express = require("express")
 const app = express()
 
-// const index = require("./routes/index")
-// const alunas = require("./routes/alunasRoute")
-// const professoras = require("./routes/professorasRoute")
+const index = require("./routes/index")
+const books = require("./routes/bookRoute")
+
+//FINALIZAR AS ROTAS CONFORME A PROPOSTA 
 
 //RESOLVER A QUESTÃO DE SEGURANÇA DESSE TRECHO DE CÓDIGO
 app.use("*", function(req, res, next){
@@ -12,8 +13,7 @@ app.use("*", function(req, res, next){
     next()
 })
 
-// app.use("/", index)
-// app.use("/alunas", alunas)
-// app.use("/professoras", professoras)
+app.use("/", index)
+app.use("/books", books)
 
 module.exports = app
